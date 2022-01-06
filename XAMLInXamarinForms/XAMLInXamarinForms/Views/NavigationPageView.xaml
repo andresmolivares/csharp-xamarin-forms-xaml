@@ -11,17 +11,17 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Button">
-                <Setter Property="Font" Value="Calibri"/>
-                <Setter Property="BackgroundColor" Value="White"/>
-                <Setter Property="Margin" Value="5"/>
-                <Setter Property="HorizontalOptions" Value="FillAndExpand "/>
+                <Setter Property="Font">Calibri</Setter>
+                <Setter Property="BackgroundColor">White</Setter>
+                <Setter Property="Margin">5</Setter>
+                <Setter Property="HorizontalOptions">FillAndExpand</Setter>
             </Style>
             <Style TargetType="Label">
-                <Setter Property="Font" Value="Calibri"/>
-                <Setter Property="BackgroundColor" Value="White"/>
-                <Setter Property="Padding" Value="10"/>
-                <Setter Property="HorizontalOptions" Value="FillAndExpand "/>
-                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="Font">Calibri</Setter>
+                <Setter Property="BackgroundColor">White</Setter>
+                <Setter Property="Padding">10</Setter>
+                <Setter Property="HorizontalOptions">FillAndExpand</Setter>
+                <Setter Property="HorizontalTextAlignment">Center</Setter>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>

@@ -9,20 +9,19 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Button">
-                <Setter Property="Font" Value="Calibri "/>
+                <Setter Property="Font" Value="Calibri"/>
                 <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="Margin" Value="5"/>
                 <Setter Property="HorizontalOptions" Value="FillAndExpand "/>
             </Style>
             <Style TargetType="Label">
-                <Setter Property="Font" Value="Calibri "/>
+                <Setter Property="Font" Value="Calibri"/>
                 <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="Padding" Value="10"/>
                 <Setter Property="HorizontalOptions" Value="FillAndExpand "/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
         </ResourceDictionary>
-        
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout BindingContext="{viewmodels:PlannerViewModel}">

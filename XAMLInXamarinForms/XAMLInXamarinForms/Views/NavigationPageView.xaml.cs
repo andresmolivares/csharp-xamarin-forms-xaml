@@ -28,10 +28,10 @@ namespace XAMLInXamarinForms.Views
         {
             await Navigation.PushAsync(new NutritionView());
         }
-
+        
         private async void PopModal()
         {
-            await Navigation.PushModalAsync(new PrivacyModal());
+            await Navigation.PushModalAsync(new PrivacyModal(), true);
         }
     }
 }

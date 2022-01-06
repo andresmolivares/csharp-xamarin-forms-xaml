@@ -6,7 +6,6 @@
     xmlns:nutritionviews="clr-namespace:XAMLInXamarinForms.Views.Nutrition"
     Title="Nutrition"
     >
-  <!--Pages can be added as references or inline-->
     <nutritionviews:BreakfastView/>
     <nutritionviews:LunchView/>
     <nutritionviews:DinnerView/>
